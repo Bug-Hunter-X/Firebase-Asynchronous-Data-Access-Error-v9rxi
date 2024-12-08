@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a property of a document snapshot before the data has fully loaded. This is particularly common with asynchronous operations.  For example, if you use `getDoc()` to retrieve a document and then immediately try to access a field, the field might be undefined, leading to an error.
