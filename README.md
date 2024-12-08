@@ -1,0 +1,3 @@
+# Firebase Asynchronous Data Access Error
+
+This repository demonstrates a common error in Firebase applications related to accessing data before it's fully loaded.  The `bug.js` file showcases the problematic code, resulting in an error when trying to read a field from a document snapshot prematurely.  The solution, provided in `bugSolution.js`, uses `.then()` to ensure that the data is loaded before attempting to access it.
